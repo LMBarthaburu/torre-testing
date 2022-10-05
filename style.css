@@ -1,0 +1,167 @@
+:root{
+  --blue: #162D54;
+  --white: #ffffff;
+  --black: #030303;
+  --gold: #9D6C38;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+.navbar{
+  background-color:var(--blue);
+  height: 100px;
+  z-index: 1;
+}
+.nav-logo{
+  width: 290px;
+}
+.nav-item{
+  text-align: start;
+  padding: 12px 13px;
+  font-size: 16px;
+}
+.nav-link{
+  color: var(--white);
+}
+.nav-link:hover{
+text-align: start;
+  color: var(--white);
+}
+.svg-navbar{
+  color: var(--white);
+}
+.dropdown-menu{
+  background-color: transparent;
+  border: none;
+}
+.dropdown-item{
+  font-size: 16px;
+  max-width: 300px;
+  color: var(--white);
+  margin: 0;
+  line-height: 1;
+  letter-spacing: 1.5px;
+  padding: 19px 13px;
+  background-color: rgb(0, 0, 0, 0.8);
+}
+.dropdown-item:hover{
+  background-color:  rgb(0, 0, 0, 0.8);
+  color: var(--white);
+}
+.hero{
+  height: 100vh;
+  background-image: url(./images/antonio-cuellar-_K4B1puV484-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: var(--white);
+}
+.hero-title{
+  font-size: 84px;
+  padding-bottom: 25px;
+}
+.hero-title::after {
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: 45%;
+    width: 10%;
+    height: 1px;
+    background-color: var(--gold);
+}
+.btn{
+  background-color: transparent;
+  border: 3px solid var(--white) ;
+  color: var(--white);
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.btn:hover{
+  background-color: var(--white);
+  color: var(--black);
+}
+.btn:focus-visible, .btn:focus, .btn:active{
+  box-shadow: none;
+  
+}
+.info{
+  text-align: center;
+  color: var(--blue);
+  margin-top: 60px;
+}
+.info-title{
+  font-size: 48px;
+  margin: 15px 0;
+}
+.info-text{
+  font-size: 18px;
+  margin: 35px;
+}
+.info-img{
+  margin: 5px 15px;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+.info-list{
+  overflow: hidden;
+  padding: 25px 0;
+  height: auto;
+}
+.blue{
+  background-color: var(--blue);
+  color: var(--white);
+}
+.info-list-number{
+  font-size: 320px;
+  margin-bottom: -130px;
+  font-weight: bolder;
+  letter-spacing: -30px;
+  color: var(--gold);
+}
+.info-list-title{
+  font-size: 36px;
+}
+.info-list-text{
+  font-size: 14px;
+}
+.left{
+  text-align: start;
+  margin-right: 100px;
+}
+.right{
+  text-align: end;
+  margin-left: 100px;
+}
+.contact{
+  margin-top: 45px;
+  height: 100vh;
+  background-image: url(https://res.cloudinary.com/luxuryp/images/w_1920,c_limit,f_auto,q_auto/h1s5u33xtapmql9xwdao/img_6959-copy-2);
+  color: var(--white);
+}
+.contact-container{
+  max-width: 50%;
+  margin-left: 200px;
+}
+.contact-title{
+  font-size: 48px;
+}
+.contact-info{
+  width: 350px;
+}
+.contact-rrss{
+  width: 30%;
+}
+hr{
+  color: var(--gold);
+}
+.rrss{
+  width: 45px;
+  padding: 8px;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+}
